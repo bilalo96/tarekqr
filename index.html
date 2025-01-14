@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            max-width: 95%;
+            width: 100%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .cover {
+            width: 100%;
+            height: 290px;
+            background-image: url('icon.jpg'); /* Replace with image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: -50px;
+        }
+
+        .profile img {
+            width: 25%;
+            max-width: 100px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+        }
+
+        .profile h1 {
+            font-size: 1.5rem;
+            margin: 10px 0 5px;
+            text-align: center;
+        }
+
+        .profile h2 {
+            font-size: 1rem;
+            color: #666;
+            margin: 0;
+            text-align: center;
+        }
+
+        .info-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .info-section a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            word-wrap: break-word;
+        }
+
+        .info-section .contact-info {
+            margin: 20px 0;
+        }
+
+        .info-section .contact-info div {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .info-section .contact-info img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        .socials {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .socials img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .save-button {
+            display: block;
+            width: 90%;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .save-button:hover {
+            background-color: #444;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .profile img {
+                width: 30%;
+            }
+
+            .profile h1 {
+                font-size: 1.2rem;
+            }
+
+            .profile h2 {
+                font-size: 1rem;
+            }
+
+            .info-section .contact-info div {
+                font-size: 0.95rem;
+            }
+
+            .socials img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile img {
+                width: 40%;
+            }
+
+            .profile h1 {
+                font-size: 1rem;
+            }
+
+            .profile h2 {
+                font-size: 0.85rem;
+            }
+
+            .info-section .contact-info div {
+                font-size: 0.85rem;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .info-section .contact-info img {
+                margin-bottom: 5px;
+            }
+
+            .socials img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .save-button {
+                width: 95%;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cover"></div>
+        <div class="profile">
+            <img src="tarekp.jpg" alt="Profile">
+            <h1>Tarek Sawan</h1>
+            <h2>Immobilien- und Finanzberater</h2>
+        </div>
+        <div class="info-section">
+            <a href="https://www.instagram.com/infinity_fr.de/">Infinity Finance and Real Estate Consulting GmbH</a>
+            <div class="contact-info">
+                <div>
+                    <img src="internet.png" alt="Website">
+                    <a href="https://www.instagram.com/infinity_fr.de/">www.Infinity-fr.de</a>
+                </div>
+                <div>
+                    <img src="phone-call.png" alt="Phone">
+                    <a href="tel:+4917661156275">+4917661156275</a>
+                </div>
+                <div>
+                    <img src="gmail.png" alt="Email">
+                    <a href="mailto:tarek.sawan@infinity_fr.de">tarek.sawan@infinity_fr.de</a>
+                </div>
+                <div>
+                    <img src="placeholder.png" alt="Location">
+                    <a href="https://maps.app.goo.gl/veXLAs2KG9ZAGX4x7">Bismarckstraße 9,66333 Völklingen</a>
+                </div>
+            </div>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/infinity_fr.de/"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/tarek.sawan.9"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.tiktok.com/@tareksawan4?_t=ZN-8t2e6g715M6&_r=1"><img src="tiktok.png" alt="TikTok"></a>
+            <a href="https://www.youtube.com/@infinity-finance-real-estate"><img src="youtube.png" alt="YouTube"></a>
+        </div>
+        <div class="footer">
+            Imprint | Privacy Policy
+        </div>
+        <a href="save.html" class="save-button">Save Contact</a>
+    </div>
+</body>
+</html>
